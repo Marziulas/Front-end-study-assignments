@@ -1,0 +1,112 @@
+/********************************Anasayfa/hakkımızda/ürünler ********************************/
+body {
+    background-color: #E5E1DA
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Öğeleri yatayda eşit aralıklarla dağıtır */
+}
+.box1{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+
+}
+a {
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: rgb(181, 54, 7)
+}
+
+/********************************  Başlık  ********************************/
+
+/* Sayfa içeriği için genel stil */
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Yatayda ortalar */
+    padding-top: 10px;
+}
+
+.brand-name {
+    font-size: 45px;
+    font-weight: bold;
+    color: #333;
+}
+
+/********************************* anasayfa giriş yazısı *****************************/
+
+.container{
+    display: flex;
+    justify-content: center; /* Yatayda ortalar */
+    padding-top: 10px;
+}
+.box2 {
+    font-size: 15px;
+    font-weight:lighter
+}
+/********************************** Hakkımızda.html *******************************/
+
+/* Sayfanın arka planı ve temel düzeni */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hakkımızda bölümü için ortalama stil */
+.hakkimizda-container {
+    max-width: 800px; /* Konteynerin genişliği */
+    margin: 50px auto; /* Yatayda ortalar, üst ve alt boşluk ekler */
+    padding: 20px;
+    background-color: #f4f4f4; /* Arka plan rengi */
+    border-radius: 8px; /* Kenarları yuvarlatma */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    text-align: center; /* Metni ortalar */
+}
+
+/* Başlıklar için stil */
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Paragraflar için stil */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+/*********************************** İmage *****************************/
+
+/* Fotoğrafın bulunduğu konteyner */
+.image-container {
+    display: flex;
+    justify-content: center; /* Yatayda ortalar */
+    align-items: center; /* Dikeyde ortalar */
+}
+
+/* Fotoğrafın boyutunu sınırlama */
+.furniture-image {
+    max-width: 400px; /* Fotoğraf genişliğini sınırlamak */
+    height: auto; /* Oranı korur */
+}
+
+/***************************** Ürünler *********************************/
+.box3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
