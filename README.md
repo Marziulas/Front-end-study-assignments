@@ -2,7 +2,7 @@
 This repository includes assignments, projects, and coding challenges I worked on during my programming education.
 
 
-Software Learning Journey Assignments
+# Software Learning Journey Assignments
 This repository contains assignments from my software development learning journey, showcasing both theoretical knowledge and hands-on projects. By working with various programming languages and technologies, I am compiling my experiences here.
 
 Contents
@@ -22,7 +22,7 @@ License
 This repository is licensed under the MIT License. For more details, please refer to the LICENSE file.
 
 
-Yazılım Öğrenme Süreci Ödevleri
+# Yazılım Öğrenme Süreci Ödevleri
 Bu depo, yazılım geliştirme sürecimde öğrendiğim teorik bilgileri ve uygulamalı projeleri içeren ödevlerimi barındırmaktadır. Farklı programlama dillerinde ve teknolojilerde çalışarak elde ettiğim tecrübelerimi burada topluyorum.
 
 İçerik
