@@ -1,0 +1,160 @@
+/********************* Sağ Üst Köşe *********************/
+.top-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    gap: 15px;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu-icon {
+    width: 24px; /* Genişlik */
+    height: 24px; /* Yükseklik */
+    background-color: #5f6368; /* Arka plan rengi */
+    border-radius: 4px; /* Hafif köşeler */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: white; /* Çizgilerin rengi */
+    position: absolute;
+}
+
+.menu-icon::before {
+    top: 8px;
+    left: 4px;
+}
+
+.menu-icon::after {
+    top: 14px;
+    left: 4px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #438251;
+    border-radius: 50%;
+}
+/*************************** Google Görseli için ***********************/
+.logo-container {
+    display: flex; /* Ortalamak için flexbox kullanıyoruz */
+    justify-content: center; /* Yatayda ortalar */
+    align-items: center; /* Dikeyde ortalar */
+    margin-top: 150px; /* Üst boşluk ekler */
+}
+
+.google-logo {
+    width: auto;
+    height: 92px; /* Orijinal boyutuna uygun */
+    max-width: 100%;
+}
+/*************************** Arama Çubuğu için **************************/
+.search-container {
+    display: flex;
+    justify-content: center; /* Ortalar */
+    margin-top: 30px; /* Logonun altında biraz boşluk bırakır */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; /* Kenarları yuvarlar */
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    padding: 5px 10px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.search-input {
+    flex: 1; /* Alanı genişletir */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.search-icon, .voice-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #5f6368;
+}
+
+.search-icon:hover, .voice-icon:hover {
+    color: #202124; /* Hover efekt */
+}
+/*************************** Butonlar için **************************/
+.button-container {
+    display: flex;
+    justify-content: center; /* Butonları yatayda ortalar */
+    margin-top: 20px; /* Arama çubuğundan aşağıya boşluk bırakır */
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; /* Hafif yuvarlak köşeler */
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0 5px; /* Butonlar arasında boşluk bırakır */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #f1f3f4; /* Hover efekti */
+    border: 1px solid #dadce0;
+}
+/*************************** Alt Kısım: Ülke Adı **************************/
+.footer-country {
+    position: absolute;
+    bottom: 0; /* Sayfanın en altına yerleştirir */
+    width: 100%; /* Tüm genişliği kaplar */
+    text-align: center; /* Metni ortalar */
+    background-color: #f8f9fa; /* Hafif bir arka plan rengi */
+    padding: 10px 0; /* Üst ve alt boşluk */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #70757a; /* Hafif gri renk */
+    border-top: 1px solid #dadce0; /* İnce bir üst çizgi */
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .footer-links a:hover {
+    color: #000;
+  }
+  
