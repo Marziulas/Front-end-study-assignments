@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact-form {
+            background-color: #ffffff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .contact-form textarea {
+            resize: none;
+            height: 120px;
+        }
+
+        .contact-form button {
+            background-color: #5cb85c;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <form class="contact-form">
+        <h2>İletişim Formu</h2>
+        <label for="name">Ad Soyad:</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı ve Soyadınızı Girin" required>
+
+        <label for="email">E-Posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-Posta Adresinizi Girin" required>
+
+        <label for="subject">Konu:</label>
+        <input type="text" id="subject" name="subject" placeholder="Mesaj Konusunu Girin" required>
+
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" placeholder="Mesajınızı Yazın" required></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
