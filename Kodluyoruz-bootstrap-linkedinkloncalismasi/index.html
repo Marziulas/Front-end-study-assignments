@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Linkedin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ağım</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İş ilanları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mesajlaşma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bildirimler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ben</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İş İlanını Yayınla</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class="row">
+            <!-- Sol Panel -->
+            <div class="col-md-3">
+                <!-- Profil Başlığı -->
+                <div class="card">
+                    <div class="card-header">Profil</div>
+                    <div class="card-body text-center">
+                        <img src="https://picsum.photos/id/10/200/300" class="rounded-circle" alt="Profil Fotoğrafı" width="80">
+                        <h5>Marziye</h5>
+                        <p>Front-End Developer | Python Enthusiast</p>
+                    </div>
+                </div>
+
+                <!-- Önerilen Bağlantılar -->
+                <div class="card mt-3">
+                    <div class="card-header">Önerilen Bağlantılar</div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="#">Codecraft - Takip Et</a></li>
+                            <li><a href="#">Podfresh - Takip Et</a></li>
+                            <li><a href="#">Navlungo - Takip Et</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ortadaki Alan -->
+            <div class="col-md-6">
+                <!-- Paylaşım Alanı -->
+                <div class="card">
+                    <div class="card-header">Paylaşım Yap</div>
+                    <div class="card-body">
+                        <textarea class="form-control" placeholder="Ne paylaşmak istersiniz?"></textarea>
+                        <button class="btn btn-primary mt-2">Paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Paylaşımlar -->
+                <div class="card mt-3">
+                    <div class="card-header">Paylaşımlar</div>
+                    <div class="card-body">
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="https://picsum.photos/id/250/200/300" class="rounded-fluid" alt="Profil Fotoğrafı" width="400" height="300">
+                                <br>
+                                <span class="ml-2">Lorem ipsum dolor sit amet consectetur.</span>
+                            </div>
+                            <div class="post-body">
+                                <p>Bugün Python ve Web3 üzerine çalıştım. Çok heyecanlıyım!</p>
+                            </div>
+                            <div class="post-footer">
+                                <button class="btn btn-outline-primary">Beğen</button>
+                                <button class="btn btn-outline-primary">Yorum Yap</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sağ Panel -->
+            <div class="col-md-3">
+                <!-- Eğitim Önerileri -->
+                <div class="card">
+                    <div class="card-header">Bugünün Eğitimleri</div>
+                    <div class="card-body">
+                        <ol>
+                            <li>The Six Morning Habits of High Performers</li>
+                            <li>Onconscious Bias</li>
+                            <li>Critical Thinking for Better Judgement</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Mesajlaşma -->
+                <nav class="navbar navbar-light bg-dark fixed-bottom mt-5 pt-1">
+                    <span style="color: white;">Mesajlaşma</span>
+                    <span><i class="fas fa-chevron-up text-white"></i></span>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
