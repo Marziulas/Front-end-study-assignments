@@ -1,0 +1,17 @@
+body {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+  }
+  
+  .pt-serif-bold {
+    font-weight: 700;
+  }
+  
+
+.bg-yellow {
+    background: #FFC017;
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid #222222;
+}
